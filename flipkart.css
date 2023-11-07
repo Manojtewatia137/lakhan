@@ -1,0 +1,302 @@
+.form-control {
+    width: 500px;
+}
+
+body {
+    width: 100%;
+}
+
+.btn1 {
+    border: solid 1px wheat;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+.flip {
+    font-style: italic;
+    font-size: x-large;
+    color: blue;
+
+}
+
+.flip1 {
+    font-style: italic;
+    text-decoration: aliceblue;
+    font-size: large;
+    color: silver;
+}
+
+.plus {
+    font-size: small;
+    color: rgb(239, 190, 11);
+    font-style: italic;
+}
+
+.navbar {
+    border-bottom: solid 10px whitesmoke;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    margin: 22px;
+
+    /* border: solid 5px whitesmoke; */
+}
+
+/* .a{
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 5px;
+
+
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid1 {
+    background-color: whitesmoke;
+    width: 99%;
+    margin-left: 28px;
+
+}
+
+.slide {
+    background-color: whitesmoke;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-bottom: solid 10px whitesmoke;
+}
+
+.bank {
+    /* margin-left: -100px; */
+    width: 95%;
+    margin-left: 50px;
+}
+
+.phone {
+    display: flex;
+    margin-left: 50px;
+    width: 95%;
+}
+
+.phone1 {
+    height: 220px;
+
+
+}
+
+.kart1 {
+    display: none;
+}
+
+.kart2 {
+    display: none;
+}
+
+.head {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:996px) {
+
+    .head {
+
+        color: white;
+        width: 90%;
+
+
+
+    }
+
+    .phone1 {
+
+        height: 300px;
+        /* margin-bottom: 10px; */
+        /* display: block; */
+
+
+    }
+
+    .flip {
+        /* font-size: xx-large; */
+        /* margin-left: 200px; */
+        display: none;
+    }
+
+    .flip1 {
+        /* font-size: x-large; */
+        /* margin-left: 200px; */
+        display: none;
+    }
+
+    .plus {
+        display: none;
+    }
+
+    .kart1 {
+        display: block;
+        background-color: blue;
+        width: 130px;
+        padding: 16px;
+        border-radius: 10px;
+
+
+    }
+
+    .kart2 {
+        display: block;
+        background-color: silver;
+        width: 120px;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .phone {
+        display: block;
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media(min-width:480px) {
+    .phone1 {
+
+        height: 220px;
+        margin-bottom: 10px;
+        display: inline;
+
+    }
+
+    .form-control {
+        width: 350px;
+    }
+
+    .kart1 {
+
+        margin-left: -60px;
+
+    }
+
+
+
+}
+
+ @media(max-width:479px) {
+    .phone1 {
+
+        height: 220px;
+        margin-bottom: 10px;
+        display: inline;
+
+    }
+
+    .form-control {
+        width: 320px;
+    }
+
+    .kart1 {
+
+        margin-left: -60px;
+
+    }
+
+    .container-fluid1 {
+
+        margin-left: 3%;
+    }
+
+
+} 
+
+
+
+@media(max-width:369px) {
+
+    .kart1 {
+
+        margin-left: -100px;
+
+    }
+
+    .form-control {
+        width: 220px;
+    }
+
+
+    .phone1 {
+
+        height: 150px;
+        margin-bottom: 10px;
+        display: inline;
+
+    }
+
+    .container-fluid1 {
+
+        margin-left: 0%;
+    }
+
+
+}
+
+
+
+
+
+
+
+ @media(max-width:435px) {
+
+    .kart1 {
+
+        margin-left: -100px;
+
+    }
+
+    .form-control {
+        width: 290px;
+    }
+
+
+    .phone1 {
+
+        height: 200px;
+        margin-bottom: 10px;
+        display: inline;
+
+    }
+
+    .container-fluid1 {
+
+        margin-left: 5%;
+    }
+
+
+} 
